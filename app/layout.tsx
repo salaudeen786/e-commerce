@@ -38,7 +38,7 @@ export default function RootLayout({
       lang="en"
       className={`${playfairDisplay.variable} ${poppins.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">
+      <body className="flex w-full min-h-full flex-col overflow-x-hidden">
         <div className="fixed inset-x-0 top-0 z-50 flex flex-col">
           <AnnouncementBar />
           <Navbar />

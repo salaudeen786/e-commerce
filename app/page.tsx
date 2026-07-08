@@ -16,7 +16,6 @@ import { HowItWorks } from "@/components/sections/HowItWorks";
 import { CustomerTestimonials } from "@/components/sections/CustomerTestimonials";
 import { InstagramGallery } from "@/components/sections/InstagramGallery";
 import { BlogPreview } from "@/components/sections/BlogPreview";
-import { NewsletterSection } from "@/components/sections/NewsletterSection";
 
 export default function HomePage() {
   return (
@@ -41,7 +40,6 @@ export default function HomePage() {
       <CustomerTestimonials />
       <InstagramGallery />
       <BlogPreview />
-      <NewsletterSection />
     </>
   );
 }

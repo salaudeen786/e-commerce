@@ -1,9 +1,9 @@
 import type { NavLink, SavedAddress } from "@/types";
 
-export const SITE_NAME = "Makran Sweets Bakkers";
+export const SITE_NAME = "M & M Bakkers";
 export const SITE_TAGLINE = "Premium Cakes • Coffee • Chocolates • Gifts";
 export const SITE_DESCRIPTION =
-  "Discover handcrafted premium cakes, artisanal chocolates, and curated gifts for every celebration. Makran Sweets Bakkers makes every occasion special.";
+  "Discover handcrafted premium cakes, artisanal chocolates, and curated gifts for every celebration. M & M Bakkers makes every occasion special.";
 export const SITE_URL = "https://makransweetsbakkers.com";
   
 export const NAV_LINKS: NavLink[] = [
@@ -14,14 +14,14 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const CATEGORY_SLUGS = [
-  { label: "Cakes", slug: "cakes", image: "/images/category-cakes.jpg" },
-  { label: "Coffee", slug: "coffee", image: "/images/category-coffee.jpg" },
+  { label: "Cakes", slug: "cakes", image: "/images/category-cakes.svg" },
+  { label: "Coffee", slug: "coffee", image: "/images/category-coffee.svg" },
   {
     label: "Chocolates",
     slug: "chocolates",
-    image: "/images/category-chocolates.jpg",
+    image: "/images/category-chocolates.svg",
   },
-  { label: "Gifts", slug: "gifts", image: "/images/category-gifts.jpg" },
+  { label: "Gifts", slug: "gifts", image: "/images/category-gifts.svg" },
 ];
 
 export const DEFAULT_PAGE_SIZE = 9;

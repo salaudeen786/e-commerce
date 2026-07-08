@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Truck, ShieldCheck, ChefHat, Headphones } from "lucide-react";
+import { Truck, ShieldCheck, ChefHat, Leaf } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { staggerContainer, fadeInUp } from "@/lib/animations";
 
@@ -9,7 +9,7 @@ const badges = [
   { icon: Truck, label: "Free Shipping", desc: "On orders over $50" },
   { icon: ShieldCheck, label: "Secure Checkout", desc: "100% safe payment" },
   { icon: ChefHat, label: "Fresh Baked", desc: "Made to order daily" },
-  { icon: Headphones, label: "24/7 Support", desc: "We're here to help" },
+  { icon: Leaf, label: "Organic", desc: "We use only the finest ingredients" },
 ];
 
 export function TrustBadges() {

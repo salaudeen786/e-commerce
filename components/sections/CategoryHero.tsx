@@ -22,7 +22,7 @@ export function CategoryHero({
   reversed,
 }: CategoryHeroProps) {
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-16 md:py-24 overflow-x-hidden">
       <Container>
         <div
           className={cn(

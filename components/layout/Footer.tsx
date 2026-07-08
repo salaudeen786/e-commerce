@@ -8,7 +8,6 @@ import {
   Phone,
 } from "lucide-react";
 import { Container } from "@/components/ui/container";
-import { NewsletterForm } from "@/components/sections/NewsletterForm";
 import { SITE_NAME, SITE_TAGLINE, NAV_LINKS } from "@/constants";
 
 export function Footer() {
@@ -100,16 +99,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-4">
-            <h4 className="font-heading text-base font-semibold text-foreground">
-              Newsletter
-            </h4>
-            <p className="text-sm text-muted-foreground">
-              Subscribe for exclusive offers, new arrivals, and sweet
-              inspiration.
-            </p>
-            <NewsletterForm />
-          </div>
+          
         </div>
 
         <div className="mt-12 border-t border-border pt-6 text-center text-sm text-muted-foreground">

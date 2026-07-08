@@ -31,12 +31,8 @@ export function Navbar() {
 
   return (
     <header
-      className={cn(
-        "relative w-full h-16 transition-all duration-300 md:h-20",
-        scrolled
-          ? "bg-background/80 shadow-sm backdrop-blur-xl"
-          : "bg-transparent"
-      )}
+      className={cn("relative w-full transition-all duration-300 bg-background shadow-sm",
+        scrolled ? "h-12 md:h-14" : "h-16 md:h-20")}
     >
       <Container className="flex h-full items-center justify-between">
         <Link

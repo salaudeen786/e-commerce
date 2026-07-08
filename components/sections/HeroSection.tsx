@@ -9,9 +9,9 @@ import { Container } from "@/components/ui/container";
 
 export function HeroSection() {
   return (
-    <section className="relative flex min-h-[calc(100vh-4rem)] items-center overflow-hidden md:min-h-screen">
+    <section className="relative flex min-h-[50vh] items-center overflow-hidden md:min-h-screen mt-14">
       <Image
-        src="/images/Euro.webp"
+        src="/images/hero/Euro.webp"
         alt="Premium celebration cakes and treats"
         fill
         priority
@@ -49,7 +49,7 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mb-4 inline-block rounded-full bg-white/15 px-4 py-1.5 text-xs font-medium text-white backdrop-blur-sm"
           >
-            Handcrafted with Love
+            Hand made from Home
           </motion.span>
 
           <motion.h1
