@@ -1,11 +1,11 @@
 import type { NavLink, SavedAddress } from "@/types";
 
-export const SITE_NAME = "Sweet Moments";
+export const SITE_NAME = "Makran Sweets Bakkers";
 export const SITE_TAGLINE = "Premium Cakes • Coffee • Chocolates • Gifts";
 export const SITE_DESCRIPTION =
-  "Discover handcrafted premium cakes, artisanal chocolates, and curated gifts for every celebration. Sweet Moments makes every occasion special.";
-export const SITE_URL = "https://sweetmoments.com";
-
+  "Discover handcrafted premium cakes, artisanal chocolates, and curated gifts for every celebration. Makran Sweets Bakkers makes every occasion special.";
+export const SITE_URL = "https://makransweetsbakkers.com";
+  
 export const NAV_LINKS: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "Shop", href: "/shop" },
